@@ -1,0 +1,8 @@
+[A[B[A[C[C[C[C[C[C[C[C[C[Cvim file3.sh
+class HelloWorld
+{
+   public static void main(String args[])
+   {
+      System.out.println("Hello World");
+   }
+}
