@@ -7,6 +7,18 @@ public class Average {
         for (double num: numArray) {
            sum += num;
         }
+		
+		## new changes are made by anusha
+		public class Array {
+
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5};
+
+        for (int element: array) {
+            System.out.println(element);
+        }
+    }
+}
 
         double average = sum / numArray.length;
         System.out.format("The average is: %.2f", average);
