@@ -8,17 +8,18 @@ public class Average {
            sum += num;
         }
 		
-		## new changes are made by anusha
-		public class Array {
+		## new changes are made by anu
+     import java.util.Arrays;
+
+      public class Array {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5};
 
-        for (int element: array) {
-            System.out.println(element);
-        }
+        System.out.println(Arrays.toString(array));
     }
 }
+
 
         double average = sum / numArray.length;
         System.out.format("The average is: %.2f", average);
