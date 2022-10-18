@@ -14,3 +14,9 @@ for($i=1; $i<=10; $i++)
 }  
 ?>  
 
+<?php  
+$x=30;  
+$y=15;  
+$z=$x-$y;  
+echo "Difference: ",$z;  
+?
