@@ -5,3 +5,12 @@ print "<p style='font-weight:bold; color:blue;'>This is a paragraph text that is
 ?>
 
 
+<?php    
+define('a', 7);   
+for($i=1; $i<=10; $i++)   
+{   
+  echo $i*a;   
+  echo '<br>';     
+}  
+?>  
+
